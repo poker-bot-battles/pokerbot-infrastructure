@@ -11,7 +11,7 @@ jobs:
 
     strategy:
       matrix:
-        image: [pokerbot-api]
+        image: [pokerbot-api-base]
 
     steps:
       - name: Checkout code
