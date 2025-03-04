@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - "docker-base/**"
+      - ".github/workflows/build-images.yaml"
 
 jobs:
   build:
